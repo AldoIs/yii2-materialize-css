@@ -52,3 +52,23 @@ environments/            contains environment-based overrides
 tests                    contains various tests for the advanced application
     codeception/         contains tests developed with Codeception PHP Testing Framework
 ```
+FOR INSTALL IT
+-------------------
+
+```
+You need have composer installed.
+
+Need update asset-plugin
+composer global require "fxp/composer-asset-plugin"
+
+USE FOLLOW CODED
+
+composer update
+php init
+
+Edit file into directory 
+common/config/main-local.php 
+
+Add database Data connection
+
+command line in the root php yii migrate for automatically tables generation.
