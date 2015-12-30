@@ -74,4 +74,8 @@ common/config/main-local.php
 
 Add database Data connection
 
-command line in the root php yii migrate for automatically tables generation.
+command line in the root 
+
+php yii migrate 
+
+for automatically tables generation.
